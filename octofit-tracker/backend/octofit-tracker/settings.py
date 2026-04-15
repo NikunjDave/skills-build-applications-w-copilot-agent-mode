@@ -26,7 +26,6 @@ SECRET_KEY = 'django-insecure-tha^9*t0$r%10%4$axq89j4w6a#6v-7qccv78^4t=3ht35e3jv
 DEBUG = True
 
 
-# Allow all hosts for development
 ALLOWED_HOSTS = ["*"]
 
 
@@ -127,7 +126,6 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-# Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
@@ -137,6 +135,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = ['*']
 CORS_ALLOW_METHODS = ['*']
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
